@@ -1,0 +1,61 @@
+{
+    "currency": {
+        "id": 0,
+        "symbol": "$"
+    },
+    "customer": {
+        "address": null,
+        "doc_number": "DOCUMENTO",
+        "email": "EMAIL",
+        "last_name": "APELLIDO",
+        "name": "NOMBRE",
+        "nickname": "APODO",
+        "phone": "TELEFONO"
+    },
+    "date_creation": "FECHA",
+    "idSagal": ID EN SAGAL,
+    "lines": [
+        {
+            "amount": 1,
+            "article": "CODIGO",
+            "currency": {
+                "id": 0,
+                "symbol": "$"
+            },
+            "fiscal_code": null,
+            "fiscal_unit": null,
+            "lineNumber": 0,
+            "name": "NOMBRE DEL ARTICULO",
+            "price": 18990
+        }
+    ],
+    "payment": {
+        "date_payment_created": "date_payment_created",
+        "method": "Metodo de Pago",
+        "mode": null,
+        "payment_id": ID DEL PAGO,
+        "total_amount": TOTAL DEL PAGO
+    },
+    "shipping": {
+        "carrier": null,
+        "city": "CIUDAD",
+        "comment": "null",
+        "cost": "",
+        "label_url": "https://s3.amazonaws.com/sagal-shipping-labels/40091463177.d9a531aa-08c1-491b-b419-14e66be047e5.pdf",
+        "neighborhood": "BARRIO",
+        "paid_amount": TOTAL PAGADO,
+        "receiver_name": "NOMBRE",
+        "receiver_phone": "APELLIDO",
+        "shipment_id": ID DE ENVIO,
+        "shipping_mode": "METODO DE ENVIO",
+        "state": "ESTADO",
+        "street_name": "CALLE",
+        "street_number": "NUMERO",
+        "tracking_id": ID ,
+        "zip_code": "CODIGO POSTAL"
+    },
+    "status": {
+        "enumType": "io.sagal.gestion.zeta.PurchaseStatus",
+        "name": "PAID"
+    }
+}
